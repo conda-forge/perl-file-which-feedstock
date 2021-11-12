@@ -1,5 +1,5 @@
 {% set name = "File-Which" %}
-{% set version = "1.23" %}
+{% set version = "1.24" %}
 
 package:
   name: perl-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/{{ name }}-{{ version }}.tar.gz
-  sha256: b79dc2244b2d97b6f27167fc3b7799ef61a179040f3abd76ce1e0a3b0bc4e078
+  sha256: 7c5414dd6d5c61cb992fdd257aefe52f9a80bf55158cd5ec17469199d0b12eef
 
 build:
   number: 0
